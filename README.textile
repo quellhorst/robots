@@ -1,0 +1,28 @@
+h1. Robots.txt
+
+h2. Fend off those pesky robots!
+
+This project resulted from having to specifically block useless bots that requests thousands of pages
+per day and send no traffic. Several example bots files are included that could be renamed and copied to 
+robots.txt in the root of your web application. Your robots file should be accessible at
+http://www.yourdomain.com/robots.txt
+
+I have seen sites that had multiple servers just to handle excessive bot load.
+
+Files included
+
+robots.txt              Standard bot file should be usable for most sites. 
+                        Only disallows know bad bots.
+
+robots.major.txt        Has a white-list for major search engine and blocks 
+                        everything else
+
+robots.noarchive.txt    same as above but disallows archive.org bot which uses 
+                        lots of traffic and doesn't send much traffic
+
+robots.none.txt         Block all bots
+
+
+"http://abtain.com/":http://abtain.com/
+
+Licensed under the MIT License
