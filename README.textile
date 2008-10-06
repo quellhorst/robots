@@ -1,4 +1,4 @@
-h1. Robots.txt
+h1. Robots.txt Examples
 
 h2. Fend off those pesky robots!
 
