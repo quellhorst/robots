@@ -10,6 +10,9 @@ Disallow:
 # User-agent: *
 # Sitemap: http://www.yourdomain..com/sitemap.gz
 
+# Slow down bots so they don't request too much
+User-agent: *
+Crawl-delay: 10
 
 User-agent: WebAlta Crawler/2.0
 Disallow: /
