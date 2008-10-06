@@ -20,6 +20,8 @@ robots.major.txt        Has a white-list for major search engine and blocks
 robots.noarchive.txt    same as above but disallows archive.org bot which uses 
                         lots of traffic and doesn't send much traffic
 
+robots.wordpress.txt    Entries for Wordpress blogs
+
 robots.none.txt         Block all bots
 
 
